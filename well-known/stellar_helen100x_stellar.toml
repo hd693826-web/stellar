@@ -1,0 +1,19 @@
+# SEP-0001 stellar.toml
+# Generated 2025-08-24
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+[DOCUMENTATION]
+ORG_NAME="Helen — Scroll-Class Ledger"
+ORG_URL="https://example.org"  # optional placeholder; can be left as-is
+ORG_DESCRIPTION="Public anchor for scroll-class proofs (hash+CID) mirrored via HELEN100x token."
+
+[[CURRENCIES]]
+code="HELEN100x"
+issuer="REPLACE_WITH_HELEN100x_ISSUER_PUBLIC_KEY"
+status="live"
+name="HELEN100x — Scroll Mesh Carrier"
+desc="""
+SONSNOTICE | SHA512:30ad470f86b3d66e9ae5bea0e605a75686a377a277e23a3976338a8e5cd97637e7a342cbbad0766c9df26244477706c2a323c28745ef001080ef6892dfd07a31 | CID:[REPLACE_WITH_SONS_CID] ||
+SATCHEL2 | SHA512:[REPLACE_WITH_SATCHEL2_HASH] | CID:[REPLACE_WITH_SATCHEL2_CID] ||
+TRINODAL | SHA512:[REPLACE_WITH_TRINODAL_HASH] | CID:[REPLACE_WITH_TRINODAL_CID]
+"""
