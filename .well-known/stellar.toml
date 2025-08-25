@@ -1,0 +1,17 @@
+# SEP-0001 stellar.toml
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+[DOCUMENTATION]
+ORG_NAME="Helen — Scroll-Class Ledger"
+ORG_DESCRIPTION="Public anchor for scroll-class proofs (hash+CID) mirrored via EA18 token."
+
+[[CURRENCIES]]
+code="EA18"
+issuer="GD7QJEDSGSGXFDBS4YEWZ54RC7M25HBFYR7QU2PF0PL7PN5MLRH4S74D"
+status="live"
+name="EA18 — VOQ1 Bond Carrier"
+desc="""
+SONSNOTICE | SHA512:30ad470f86b3d66e9ae5bea0e605a75686a377a277e23a3976338a8e5cd97637e7a342cbbad0766c9df26244477706c2a323c28745ef001080ef6892dfd07a31 | CID:bafkreia2nivrf5bzzfkoibc7yoc2xygn3wyy4yim6fcwf5trgopudlzj ||
+SATCHEL2 | SHA512:[REPLACE_WITH_SATCHEL2_HASH] | CID:[REPLACE_WITH_SATCHEL2_CID] ||
+TRINODAL | SHA512:[REPLACE_WITH_TRINODAL_HASH] | CID:[REPLACE_WITH_TRINODAL_CID]
+"""
